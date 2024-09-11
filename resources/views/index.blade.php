@@ -28,17 +28,18 @@
         </ul>
       </nav>
 
-     <!-- Popup Konfirmasi Logout -->
+     <!-- Logout Pop-up -->
     <div id="logoutPopup" class="popup-overlay">
       <div class="popup-content">
-          <p>Are you sure you want to log out?</p>
+          <p>Are you sure want to log out?</p>
           <button id="logoutYes">Yes</button>
           <button id="logoutNo">No</button>
       </div>
     </div>
-  
-      <!-- Carousel Section -->
-    <div class="carousel" id="home">
+
+    <!-- Home Section -->
+    <section id="home">
+      <div class="carousel">
         <div class="carousel-inner">
             <div class="carousel-item active" style="background-image: url('{{ asset('assets/model1.jpg') }}');"></div>
             <div class="carousel-item" style="background-image: url('{{ asset('assets/model2.jpg') }}');"></div>
@@ -46,14 +47,16 @@
             <div class="carousel-item" style="background-image: url('{{ asset('assets/model4.jpg') }}');"></div>
             <div class="carousel-item" style="background-image: url('{{ asset('assets/model5.jpg') }}');"></div>
         </div>
-    </div>
-
+      </div>
+    </section>  
     <script src="{{ asset('js/script.js') }}"></script>
     
+    <!-- Auto-Changed Text Header/Slogan -->
     <header>
         <h1 id="changing-text">Elegance in Every Stitch.</h1>
     </header>
     
+    <!-- About Section -->
     <section id="about">
       <div class="about-container">
           <div class="about-header">
@@ -73,16 +76,17 @@
           </div>
       </div>
     </section>
-  
+
+    <!-- Video Cinematic -->
     <video autoplay muted loop id="cinematic">
       <source src="{{ asset('assets/y2mate.com - CINEMATIC PORTRAIT STREET STYLE  Sony A7C  Batis 25mm f2  BROLL_720pFHR.mp4') }}" alt="video">
     </video>
   
+    <!-- Products Section -->
     <section id="products">
-  
       <h3>OUR PRODUCTS</h3>
-  
       <div class="product-section">
+
           <!-- Men Products -->
           <div class="product-category">
               <h4>
@@ -133,7 +137,6 @@
                 </div>
               </div>
           </div>
-
 
           <!-- Women Products -->
           <div class="product-category">
@@ -188,6 +191,7 @@
       </div>
   </section>
   
+  <!-- Contact Section -->
   <section id="contact">
     <div class="footer-container">
       <div class="footer-logo">

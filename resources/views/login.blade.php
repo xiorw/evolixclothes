@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="{{ asset('css/login.css') }}">
 </head>
 <body>
-
+    <!-- Carousel Background -->
     <div class="carousel">
         <div class="carousel-inner">
             <div class="carousel-item active" style="background-image: url('{{ asset('assets/model1.jpg') }}');"></div>
@@ -18,9 +18,9 @@
             <div class="carousel-item" style="background-image: url('{{ asset('assets/model5.jpg') }}');"></div>
         </div>
     </div>
-
     <script src="{{ asset('js/login.js') }}"></script>
 
+    <!-- Login Form -->
     <div class="login-container">
         <div class="login-box">
             <h1>Welcome!</h1>
@@ -32,8 +32,6 @@
             </form>
         </div>
     </div>
-    
     <script src="{{ asset('js/login.js') }}"></script>
-
 </body>
 </html>
