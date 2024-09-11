@@ -217,6 +217,10 @@ header {
   color: #000;
 }
 
+.product-item:hover {
+  scale: 1.1;
+}
+
 /* Buat Footer */
 #contact {
   margin-top: 10rem;
