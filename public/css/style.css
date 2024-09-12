@@ -203,6 +203,9 @@ header {
 
 .product-item {
   text-align: center;
+  filter: grayscale(1);
+  transition: scale 0.75s ease-out,
+  filter 0.25s ease-out;
 }
 
 .product-item img {
@@ -219,6 +222,7 @@ header {
 
 .product-item:hover {
   scale: 1.1;
+  filter: grayscale(0);
 }
 
 /* Buat Footer */
