@@ -110,7 +110,7 @@
                 </div>
                 <div class="product-item">
                       <img src="{{ asset('assets/code004.png') }}" alt="Product 004">
-                      <p>Black Stripped Shirt</p>
+                      <p>Maroon T-Shirt</p>
                       <p>$16.99</p>
                 </div>
               </div>
@@ -122,18 +122,18 @@
                 </div>
                 <div class="product-item">
                   <img src="{{ asset('assets/code010.png') }}" alt="Product 010">
-                  <p>Black Oversized Hoodie</p>
+                  <p>Blue Sport Hoodie</p>
                   <p>$22.99</p>
                 </div>
                 <div class="product-item">
                   <img src="{{ asset('assets/code011.png') }}" alt="Product 011">
-                  <p>Black Cotton T-Shirt</p>
-                  <p>$14.99</p>
+                  <p>Green Vintage Shirt</p>
+                  <p>$20.99</p>
                 </div>
                 <div class="product-item">
                   <img src="{{ asset('assets/code012.png') }}" alt="Product 012">
                   <p>Gray Cotton Shirt</p>
-                  <p>$20.99</p>
+                  <p>$17.99</p>
                 </div>
               </div>
           </div>
@@ -151,12 +151,12 @@
                 </div>
                 <div class="product-item">
                       <img src="{{ asset('assets/code006.png') }}" alt="Product 006">
-                      <p>Gray Stripped Shirt</p>
+                      <p>Red Sweater Vest</p>
                       <p>$19.99</p>
                 </div>
                 <div class="product-item">
                       <img src="{{ asset('assets/code007.png') }}" alt="Product 007">
-                      <p>Denim Jacket Lapel Cropped</p>
+                      <p>Cropped Denim Jacket</p>
                       <p>$22.99</p>
                 </div>
                 <div class="product-item">
@@ -168,7 +168,7 @@
               <div class="product-grid">
                 <div class="product-item">
                   <img src="{{ asset('assets/code013.png') }}" alt="Product 013">
-                  <p>Army Cotton Shirt</p>
+                  <p>Black Cropped Leather Jacket</p>
                   <p>$22.99</p>
                 </div>
                 <div class="product-item">
